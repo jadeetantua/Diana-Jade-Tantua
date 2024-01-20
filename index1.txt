@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJT Home Page</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F1E4C3;
+        }
+
+        header {
+            background-color: #F1E4C3;
+            padding: 200px;
+            text-align: center;
+        }
+
+        h1,
+        p {
+            color: #597E52;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #030637;
+        }
+
+        p {
+            line-height: 2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Get to Know Me</h1>
+        <p>Hi! I'm Diana Jade Tantua, a 20-year-old student currently in my second year at National University - Fairview branch, pursuing a Bachelor of Science in Information Technology with a specialization in Mobile and Internet.</p>
+
+<p>If you're interested in learning more about me, please <a href="sample2.html"> click here </a> to explore additional sections.</p>
+    </header>
+
+    <footer>
+        &copy; 2024 Your Name. All Rights Reserved.<a href="sample2.html">
+    </footer>
+</body>
+
+</html>

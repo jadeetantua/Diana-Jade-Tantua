@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJT Sections Page</title>
+    <style>
+          body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F1E4C3;
+            color: #333;
+        }
+
+        header {
+            background-color: #597E52;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFFFEC;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #597E52;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .extended-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            display: none; 
+        }
+
+        h3 {
+            color: #4F6F52;
+            cursor: pointer; 
+        }
+
+        .collapsible-content {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To My Page</h1>
+        <p>Explore more about me through this sections below.</p>
+    </header>
+
+    <section class="collapsible-section">
+        <h3 onclick="toggleSection('aboutMe')">About Me</h3>
+        <div id="aboutMe" class="extended-section collapsible-content">
+            <p>Diana Jade Tantua</p>
+           <p>20 years old</p>
+           <p>Born on October</p>
+           <p>A Libra</p>
+           <p>Born in Quezon City</p>
+           <p>Currently a College student in National University.</p>
+          <p>Knows how to sing and have cooking skills.</p>
+          <p>I have interests in:Badminton, Movies, and Online Games</p>
+        </div>
+    </section>
+
+    <section class="collapsible-section">
+        <h3 onclick="toggleSection('education')">Education</h3>
+        <div id="education" class="extended-section collapsible-content">
+	<p> I graduated from elementary school at a public institution and completed high school at a private institution. During my high school years, I gained experience in the Citizen Army Training (CAT). I excelled academically, maintaining good grades, which led to my recognition as one of the High Honors students in our school. Currently, I am pursuing a Bachelor of Science in Information Technology (BSIT) in college. This academic journey has made me more adventurous, especially when it comes to exploring new opportunities and challenge.  
+        </div>
+    </section>
+
+    <section class="collapsible-section">
+        <h3 onclick="toggleSection('blogArticle')">Blogs/Article</h3>
+        <div id="blogArticle" class="extended-section collapsible-content">
+            <p> Disney turns to AI for new Marvel project, Hollywood gets outraged</p> <br>
+<p>My thoughts about this are that I wish they had not incorporated AI into the Marvel project because it feels more realistic when characters are played by human actors. Moreover, using AI may lead to the replacement of the artists who have made Marvel famous and enjoyable to watch, potentially impacting the unique essence they bring to the storytelling and entertainment experience.</p>
+        </div>
+    </section>
+
+	<section class="collapsible-section">
+        <h3 onclick="toggleSection('achievementandCertification')">Achievements and Certifications</h3>
+        <div id="achievementandCertification" class="extended-section collapsible-content">
+ 	
+	<p> Elementary: Achievement and Certification
+		<br>With Honors 
+		<br>Best in Filipino 
+		<br>Best in Math </p>
+
+	<p> High School (Jr. and Sr.) Achievement and Certification
+		<br>With High Honors / With Honor
+		<br>Junior High School - 5th Staff Sargeant in CAT </p>
+	</div>
+	</section>
+
+       <section class="collapsible-section">
+        <h3 onclick="toggleSection('contactInformation')">Contact Information</h3>
+        <div id="contactInformation" class="extended-section collapsible-content">
+	
+	<p> Here are my Social Media and Gmail, you can visit if you want to reach out to me. 
+	<br><br>
+		<a href = "https://www.facebook.com/jiggerjade">Visit my Facebook! </a>
+		<br><a href = "https://myaccount.google.com/?hl=en"> Visit my Gmail! </a>
+		<br><a href = "https://github.com/jadeetantua"> My Github! </a>
+		<br><a href = "https://ph.linkedin.com/in/diana-jade-tantua-aba458248"> Here's my LinkedIn!</a>
+		</div>
+	</section>
+ 	
+
+    <footer>
+        &copy; 2024 Your Name. All Rights Reserved.
+    </footer>
+
+    <script>
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.style.display = (section.style.display === 'none' || section.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</body>
+
+</html>
